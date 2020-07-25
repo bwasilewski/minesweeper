@@ -1,28 +1,17 @@
 {
-  "name": "webpack-starter",
+  "name": "minesweeper",
   "version": "1.0.0",
-  "description": "A light foundation for your next frontend project based on webpack.",
+  "description": "A minesweeper game written in HTML, CSS and JavaScript",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --config webpack/webpack.config.prod.js --colors",
     "start": "webpack-dev-server --open --config webpack/webpack.config.dev.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wbkd/webpack-starter.git"
+    "url": "git+https://github.com/bwasilewski/minesweeper.git"
   },
-  "keywords": [
-    "webpack",
-    "startkit",
-    "frontend",
-    "es6",
-    "javascript",
-    "webdev"
-  ],
-  "author": "webkid.io",
+  "author": "Benjamin Wasilewski <benwasilewski@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/wbkd/webpack-starter/issues"
-  },
   "devDependencies": {
     "@babel/core": "^7.10.2",
     "@babel/plugin-proposal-class-properties": "^7.10.1",
@@ -48,6 +37,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.10.1",
-    "core-js": "^3.6.5"
+    "core-js": "^3.6.5",
+    "p5": "^1.1.9"
   }
 }
